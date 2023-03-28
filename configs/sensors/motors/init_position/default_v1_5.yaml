@@ -1,0 +1,52 @@
+left_ankle_pitch: 0.48
+left_ankle_roll: 0.0
+left_hip_pitch: -0.0
+left_hip_roll: -0.148
+left_hip_yaw: 0.0
+left_knee: 0.0
+right_ankle_pitch: -0.48
+right_ankle_roll: -0.0
+right_hip_pitch: 0.0
+right_hip_roll: 0.148
+right_hip_yaw: 0.0
+right_knee: -0.0
+#
+#'left_hip_yaw': 0.
+#'left_hip_roll': -0.122
+#'left_hip_pitch': 0.
+#'left_knee': 1.0
+#'left_ankle_pitch': 0.05
+#'left_ankle_roll': 0.
+#'right_hip_yaw': 0.
+#'right_hip_roll': 0.122
+#'right_hip_pitch': 0.
+#'right_knee': -1.0
+#'right_ankle_pitch': -0.05
+#'right_ankle_roll': 0.
+
+
+#left_ankle_pitch: 0.0
+#left_ankle_roll: 0.0
+#left_hip_pitch: -0.3768
+#left_hip_roll: -0.1582
+#left_hip_yaw: 0.0
+#left_knee: 0.8654
+#right_ankle_pitch: -0.0
+#right_ankle_roll: -0.0
+#right_hip_pitch: 0.3768
+#right_hip_roll: 0.1582
+#right_hip_yaw: 0.0
+#right_knee: -0.8654
+
+#left_ankle_pitch: 0.0
+#left_ankle_roll: 0.0
+#left_hip_pitch: -0.0
+#left_hip_roll: -0.0
+#left_hip_yaw: 0.0
+#left_knee: 0.0
+#right_ankle_pitch: -0.0
+#right_ankle_roll: -0.0
+#right_hip_pitch: 0.0
+#right_hip_roll: 0.0
+#right_hip_yaw: 0.0
+#right_knee: -0.0

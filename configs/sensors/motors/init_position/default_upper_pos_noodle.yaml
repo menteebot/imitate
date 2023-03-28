@@ -1,0 +1,9 @@
+#NEW 31.1.23: was added for new arm experimental setup - JUNK VALUES FIX!
+right_shoulder_pitch: 0.00
+right_shoulder_roll: 0.0
+right_shoulder_yaw: 0.0
+right_elbow: 0.0
+right_wrist_pitch: 0          #name?  right_wrist_interior
+right_wrist_yaw: 0          #name?  right_wrist_exterior
+right_wrist_roll: 0.0
+#right_gripper: 0.00

@@ -1,0 +1,5 @@
+  gripper:
+    cls: GripperCls
+    active_grippers:
+      - right_gripper
+      - left_gripper

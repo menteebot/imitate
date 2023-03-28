@@ -1,0 +1,6 @@
+# default_MenteeLeg_set_actions:
+
+defaults:
+  - ../init_position@init_position: ["default_MenteeLeg_pos"]
+  - ../joints_params@joints_params: ["default_MenteeLeg_joints_set_actions"]
+  - ../mapping@mapping: ["default_MenteeLeg_mapping"]

@@ -1,0 +1,11 @@
+#NEW 31.1.23: was added for new arm experimental setup - JUNK VALUES FIX!
+#init_pos_from_csv: true
+
+right_quad_in: 0
+right_quad_out: 0
+right_hamstring: 0
+
+
+#csv_file: /home/robot/Downloads/sine-trajectories-02-03-23-2023/sine-trajectories-02-03-23/right_wrist_roll_sine.csv
+
+#right_gripper: 0.00

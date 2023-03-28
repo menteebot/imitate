@@ -1,0 +1,6 @@
+defaults:
+  - motors: ["lower_body_motor_no_ros"]
+  - imus: ["default"]
+  - distances: ["default"]
+  - teleops: ["default"]
+  - contact: ["default"]

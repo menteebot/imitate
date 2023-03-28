@@ -1,0 +1,96 @@
+main:
+  cls: SetActionSeries
+  name: set_actions
+  loop_back: false
+  read_colum: true
+  experiment_file: /home/robot/experiments/upper_arm_right_sines_exp_1/hello_world_4_2arms_NEW.csv
+  candle_params:
+    baudrate: 1M
+    bus_type: USB
+  visible_dofs:
+    - right_shoulder_pitch
+    - right_shoulder_roll
+    - right_shoulder_yaw
+    - right_elbow
+    - right_wrist_pitch
+    - right_wrist_yaw
+#    - right_wrist_roll
+    - left_shoulder_pitch
+    - left_shoulder_roll
+    - left_shoulder_yaw
+    - left_elbow
+    - left_wrist_pitch
+    - left_wrist_yaw
+#    - left_wrist_roll
+  default_dof_pos:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+#    - 0.0
+#    - 0.0
+  observations:
+    visible_delta_dof:
+      default_value:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+#        - 0.0
+#        - 0.0
+      function: get_visible_dof_pos
+      obs_scale: 4.0
+      noise_scale_mul:
+        - 1.0
+        - 1.0
+      noise_scale_add:
+        - -0.0
+        - 0.0
+      update_freq: 200
+      delay: 0.0
+      max_delay: 0.02
+      size: 10
+    visible_dof_vel:
+      default_value:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+#        - 0.0
+#        - 0.0
+      function: get_visible_dof_vel
+      obs_scale: 1.0
+      noise_scale_mul:
+        - 1.0
+        - 1.0
+      noise_scale_add:
+        - -0.0
+        - 0.0
+      update_freq: 200
+      delay: 0.0
+      max_delay: 0.02
+      size: 10

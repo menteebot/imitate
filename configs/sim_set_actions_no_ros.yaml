@@ -1,0 +1,7 @@
+defaults:
+  - states: ["sim_state_no_ros"]
+  - sensors: ["sim_sensors_no_ros"]
+  - networks: ["set_actions"]
+
+frequency: 40
+motors_pub: "motors/actions"

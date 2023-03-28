@@ -1,0 +1,515 @@
+walking:
+  cycle_duration: 1.3
+  actions_offset:
+    left_hip_yaw: 0.0
+    left_hip_roll: -0.15
+    left_hip_pitch: 0.0
+    left_knee: -0.05
+    left_ankle_pitch: 0.5
+    left_ankle_roll: 0.01
+    right_hip_yaw: 0.0
+    right_hip_roll: 0.15
+    right_hip_pitch: 0.0
+    right_knee: 0.05
+    right_ankle_pitch: -0.5
+    right_ankle_roll: -0.01
+  delta_actions_limit: {}
+  emma: 1.0
+  lpf: false
+  lpf_coeffs: false
+  lpf_cutoff: 5
+  assymetric_scaling: false
+  assymetric_scaling_type: 1
+  max_kp:
+    left_hip_yaw: 200
+    left_hip_roll: 200
+    left_hip_pitch: 200
+    left_knee: 200
+    left_ankle_pitch: 50
+    left_ankle_roll: 50
+    right_hip_yaw: 200
+    right_hip_roll: 200
+    right_hip_pitch: 200
+    right_knee: 200
+    right_ankle_pitch: 50
+    right_ankle_roll: 50
+  max_kd:
+    left_hip_yaw: 20
+    left_hip_roll: 20
+    left_hip_pitch: 20
+    left_knee: 20
+    left_ankle_pitch: 20
+    left_ankle_roll: 20
+    right_hip_yaw: 20
+    right_hip_roll: 20
+    right_hip_pitch: 20
+    right_knee: 20
+    right_ankle_pitch: 20
+    right_ankle_roll: 20
+  min_kp:
+    left_hip_yaw: 5
+    left_hip_roll: 5
+    left_hip_pitch: 5
+    left_knee: 5
+    left_ankle_pitch: 5
+    left_ankle_roll: 5
+    right_hip_yaw: 5
+    right_hip_roll: 5
+    right_hip_pitch: 5
+    right_knee: 5
+    right_ankle_pitch: 5
+    right_ankle_roll: 5
+  min_kd:
+    left_hip_yaw: 0.5
+    left_hip_roll: 0.5
+    left_hip_pitch: 0.5
+    left_knee: 0.5
+    left_ankle_pitch: 0.5
+    left_ankle_roll: 0.5
+    right_hip_yaw: 0.5
+    right_hip_roll: 0.5
+    right_hip_pitch: 0.5
+    right_knee: 0.5
+    right_ankle_pitch: 0.5
+    right_ankle_roll: 0.5
+  default_kp:
+    hip_yaw: 50.0
+    hip_roll: 50.0
+    hip_pitch: 50.0
+    knee: 50.0
+    ankle_pitch: 50.0
+    ankle_roll: 50.0
+  default_kd:
+    hip_yaw: 5.0
+    hip_roll: 5.0
+    hip_pitch: 5.0
+    knee: 5.0
+    ankle_pitch: 5.0
+    ankle_roll: 5.0
+  policy_update_step: 1
+  amp_flag: true
+  cls: PolicyTS
+  name: standing
+  visible_dofs:
+  - left_hip_yaw
+  - left_hip_roll
+  - left_hip_pitch
+  - left_knee
+  - left_ankle_pitch
+  - left_ankle_roll
+  - right_hip_yaw
+  - right_hip_roll
+  - right_hip_pitch
+  - right_knee
+  - right_ankle_pitch
+  - right_ankle_roll
+  learned_pd: false
+  aux_torque_output: false
+  actions_activation: null
+  pod_dof_dict:
+    left_hip_yaw: 0
+    left_hip_roll: 1
+    left_hip_pitch: 2
+    left_knee: 3
+    left_ankle_pitch: 4
+    left_ankle_roll: 5
+    right_hip_yaw: 6
+    right_hip_roll: 7
+    right_hip_pitch: 8
+    right_knee: 9
+    right_ankle_pitch: 10
+    right_ankle_roll: 11
+  dof_pos_limits:
+  - - -0.6100000143051147
+    - 0.6100000143051147
+  - - -0.2800000011920929
+    - 0.2800000011920929
+  - - -0.9200000166893005
+    - 0.9200000166893005
+  - - -0.8700000047683716
+    - 0.8700000047683716
+  - - -0.699999988079071
+    - 0.699999988079071
+  - - -0.3499999940395355
+    - 0.3499999940395355
+  - - -0.6100000143051147
+    - 0.6100000143051147
+  - - -0.2800000011920929
+    - 0.2800000011920929
+  - - -0.9200000166893005
+    - 0.9200000166893005
+  - - -0.8700000047683716
+    - 0.8700000047683716
+  - - -0.699999988079071
+    - 0.699999988079071
+  - - -0.3499999940395355
+    - 0.3499999940395355
+  soft_limit_factor: 1.0
+  default_dof_pos:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  model_path: /home/robot/models/experiment_1917/e2e.ts
+  torque_limits:
+  - 30.0
+  - 50.0
+  - 50.0
+  - 50.0
+  - 50.0
+  - 10.0
+  - 30.0
+  - 50.0
+  - 50.0
+  - 50.0
+  - 50.0
+  - 10.0
+  pd_gains:
+    left_hip_yaw:
+      kp: 50.0
+      kd: 5.0
+    left_hip_roll:
+      kp: 50.0
+      kd: 5.0
+    left_hip_pitch:
+      kp: 50.0
+      kd: 5.0
+    left_knee:
+      kp: 50.0
+      kd: 5.0
+    left_ankle_pitch:
+      kp: 50.0
+      kd: 5.0
+    left_ankle_roll:
+      kp: 50.0
+      kd: 5.0
+    right_hip_yaw:
+      kp: 50.0
+      kd: 5.0
+    right_hip_roll:
+      kp: 50.0
+      kd: 5.0
+    right_hip_pitch:
+      kp: 50.0
+      kd: 5.0
+    right_knee:
+      kp: 50.0
+      kd: 5.0
+    right_ankle_pitch:
+      kp: 50.0
+      kd: 5.0
+    right_ankle_roll:
+      kp: 50.0
+      kd: 5.0
+  observations:
+    get_imu_quat:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_imu_quat
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 4
+    get_imu_ang_v_local:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_imu_ang_v_local
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 3
+    get_lin_acc_local:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_lin_acc_local
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 3
+    visible_dof_pos:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_visible_dof_pos
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 12
+    visible_dof_vel:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_visible_dof_vel
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 12
+    temporal_encoding:
+      default_value:
+      - 0.0
+      - 0.0
+      function: temporal_encoding
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      update_freq: 250
+      delay: 0.0
+      max_delay: 0.02
+      size: 2
+    heading:
+      default_value:
+      - 0.0
+      function: get_heading
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 1
+    command:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.02
+      function: get_commands
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - 0.0
+      - 0.0
+      size: 4
+      params:
+        end: 4
+  command_dict:
+    default_value:
+      lin_vel_x: 0.0
+      lin_vel_y: 0.0
+      heading: 0.0
+      foot_height: 0.02
+    ranges:
+      lin_vel_x:
+      - 0.0
+      - 0.35
+      lin_vel_y:
+      - -0.3
+      - 0.3
+      heading:
+      - -3.14
+      - 3.14
+      foot_height:
+      - -0.1
+      - 0.12
+    increment:
+      lin_vel_x: 0.05
+      lin_vel_y: 0.05
+      heading: 0.5
+      foot_height: 0.01
+    key_map:
+      lin_vel_x:
+      - w
+      - s
+      lin_vel_y:
+      - q
+      - e
+      heading:
+      - a
+      - d
+      foot_height:
+      - u
+      - j
+  state_estim:
+    params:
+      state_history_size: 50
+      imu_data: "/imu/data"
+      imu_none: "/imu/none_filtered"
+      lin_acc_zero_at_rest: True
+    init:
+      Sigma_std:
+        pos:
+          x: 5e-1
+          y: 5e-1
+          z: 5e-1
+        chi:
+          x: 5e-1
+          y: 5e-1
+          z: 5e-1
+        vel:
+          x: 5e-1
+          y: 5e-1
+          z: 5e-1
+        bias_ang_vel:
+          x: 0.0 #1e-3
+          y: 0.0 #1e-3
+          z: 0.0 #1e-3
+        bias_lin_accel:
+          x: 0.0 #1e-3
+          y: 0.0 #1e-3
+          z: 0.0 #1e-3
+      Q_noise_std:
+        ang_vel:
+          x: 1e-1
+          y: 1e-1
+          z: 1e-1
+        lin_accel:
+          x: 1e-1
+          y: 1e-1
+          z: 1e-1
+        bias_ang_vel:
+          x: 1e-3
+          y: 1e-3
+          z: 1e-3
+        bias_lin_accel:
+          x: 1e-3
+          y: 1e-3
+          z: 1e-3
+      values:
+        pos:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        rot:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+          w: 1.0
+        vel:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        bias_ang_vel:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        bias_lin_accel:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+    measurements:
+      leg_odometry:
+        is_on: False
+        type: root_vel
+        meas_history_size: 10
+        motors_pos_history: 100
+        feat_pos_history: 100
+        feet_contact_force_history: 100
+        low: 500
+        high: 500
+        velocity_threshold: 0.01
+        max_dt: 1.0
+        max_meas_vel_norm: 5.0
+        max_time_mismatch: 0.1
+        asset_path: './ase/data/assets/mjcf/amp_menteebot_fk.xml'
+        cov_std:
+          x: 1e-1
+          y: 1e-1
+          z: 1e-1
+      root_rot:
+        is_on: True
+        type: root_chi
+        meas_history_size: 100
+        cov_std:
+          x: 1e-2
+          y: 1e-2
+          z: 1e-2
+      root_pos_z:
+        is_on: False
+        type: root_pos_z
+        meas_history_size: 100
+        cov_std:
+          z: 1e-1
+      root_vel_world_z:
+        is_on: False
+        type: root_vel_world_z
+        meas_history_size: 100
+        cov_std:
+          z: 1e-2
+      imu_biases:
+        is_on: True
+        #type: imu_biases
+        #type: imu_biases_and_root_vel
+        type: imu_biases_and_root_vel_pos
+        meas_history_size: 50
+        motors_pos_history_size: 100
+        motors_vel_history_size: 100
+        dof_count: 12
+        max_motors_vel: 0.05
+        min_stationary_time: 0.1
+        max_time_mismatch: 0.1
+        reset_pos_init: False
+        cov_std:
+          b_omega_x: 1e-5
+          b_omega_y: 1e-5
+          b_omega_z: 1e-5
+          b_a_x: 1e-5
+          b_a_y: 1e-5
+          b_a_z: 1e-5
+          root_vel_x: 1e-5
+          root_vel_y: 1e-5
+          root_vel_z: 1e-5
+          root_pos_x: 1e-5
+          root_pos_y: 1e-5
+          root_pos_z: 1e-5

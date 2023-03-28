@@ -1,0 +1,7 @@
+defaults:
+  - states: ["state_no_ros_upper"]
+  - sensors: ["sensors_no_ros_upper_noodle_2arms"]
+  - networks: ["set_actions_upper_2arms"]
+
+frequency: 30
+motors_pub: "motors/actions"

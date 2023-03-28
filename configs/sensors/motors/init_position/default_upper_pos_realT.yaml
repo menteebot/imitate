@@ -1,0 +1,14 @@
+#NEW 31.1.23: was added for new arm experimental setup - JUNK VALUES FIX!
+init_pos_from_csv: false
+
+right_shoulder_pitch: 0.0
+right_shoulder_roll: 0.0
+right_shoulder_yaw: 0.0
+right_elbow: 0.0
+right_wrist_pitch: 0.00
+right_wrist_yaw: 0.00
+right_wrist_roll: 0.00
+
+csv_file: /home/robot/Downloads/sine-trajectories-02-03-23-2023/sine-trajectories-02-03-23/right_wrist_roll_sine.csv
+
+#right_gripper: 0.00

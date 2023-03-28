@@ -1,0 +1,7 @@
+defaults:
+  - "default"
+
+cls: PolishROS
+topics:
+  pub: /md80/motion_command
+  sub: /md80/joint_states

@@ -1,0 +1,336 @@
+main:
+  cycle_duration: 4.0
+  delta_actions:
+    left_hip_yaw: 0.0
+    left_hip_roll: -0.148
+    left_hip_pitch: 0.0
+    left_knee: 0.0
+    left_ankle_pitch: 0.48
+    left_ankle_roll: 0.0
+    right_hip_yaw: 0.0
+    right_hip_roll: 0.148
+    right_hip_pitch: 0.0
+    right_knee: 0.0
+    right_ankle_pitch: -0.48
+    right_ankle_roll: 0.0
+  assymetric_scaling: false
+  assymetric_scaling_type: 1
+  emma: 1
+  max_kp:
+    left_hip_yaw: 400
+    left_hip_roll: 400
+    left_hip_pitch: 400
+    left_knee: 400
+    left_ankle_pitch: 400
+    left_ankle_roll: 400
+    right_hip_yaw: 400
+    right_hip_roll: 400
+    right_hip_pitch: 400
+    right_knee: 400
+    right_ankle_pitch: 400
+    right_ankle_roll: 400
+  max_kd:
+    left_hip_yaw: 10
+    left_hip_roll: 10
+    left_hip_pitch: 10
+    left_knee: 10
+    left_ankle_pitch: 10
+    left_ankle_roll: 10
+    right_hip_yaw: 10
+    right_hip_roll: 10
+    right_hip_pitch: 10
+    right_knee: 10
+    right_ankle_pitch: 10
+    right_ankle_roll: 10
+  min_kp:
+    left_hip_yaw: 10
+    left_hip_roll: 10
+    left_hip_pitch: 10
+    left_knee: 10
+    left_ankle_pitch: 10
+    left_ankle_roll: 10
+    right_hip_yaw: 10
+    right_hip_roll: 10
+    right_hip_pitch: 10
+    right_knee: 10
+    right_ankle_pitch: 10
+    right_ankle_roll: 10
+  min_kd:
+    left_hip_yaw: 0.5
+    left_hip_roll: 0.5
+    left_hip_pitch: 0.5
+    left_knee: 0.5
+    left_ankle_pitch: 0.5
+    left_ankle_roll: 0.5
+    right_hip_yaw: 0.5
+    right_hip_roll: 0.5
+    right_hip_pitch: 0.5
+    right_knee: 0.5
+    right_ankle_pitch: 0.5
+    right_ankle_roll: 0.5
+  default_kp:
+    hip_yaw: 80.0
+    hip_roll: 80.0
+    hip_pitch: 80.0
+    knee: 80.0
+    ankle_pitch: 80.0
+    ankle_roll: 50.0
+  default_kd:
+    hip_yaw: 3.0
+    hip_roll: 3.0
+    hip_pitch: 3.0
+    knee: 3.0
+    ankle_pitch: 3.0
+    ankle_roll: 3.0
+  cls: Policy
+  name: walking
+  visible_dofs:
+  - left_hip_yaw
+  - left_hip_roll
+  - left_hip_pitch
+  - left_knee
+  - left_ankle_pitch
+  - left_ankle_roll
+  - right_hip_yaw
+  - right_hip_roll
+  - right_hip_pitch
+  - right_knee
+  - right_ankle_pitch
+  - right_ankle_roll
+  learned_pd: true
+  aux_torque_output: false
+  actions_activation: tanh
+  pod_dof_dict:
+    left_hip_yaw: 0
+    left_hip_roll: 1
+    left_hip_pitch: 2
+    left_knee: 3
+    left_ankle_pitch: 4
+    left_ankle_roll: 5
+    right_hip_yaw: 6
+    right_hip_roll: 7
+    right_hip_pitch: 8
+    right_knee: 9
+    right_ankle_pitch: 10
+    right_ankle_roll: 11
+  dof_pos_limits:
+  - - -0.20999999344348907
+    - 0.20999999344348907
+  - - -0.1599999964237213
+    - 0.1599999964237213
+  - - -0.9200000166893005
+    - 0.9200000166893005
+  - - -0.8700000047683716
+    - 0.8700000047683716
+  - - -0.699999988079071
+    - 0.699999988079071
+  - - -0.3499999940395355
+    - 0.3499999940395355
+  - - -0.20999999344348907
+    - 0.20999999344348907
+  - - -0.1599999964237213
+    - 0.1599999964237213
+  - - -0.9200000166893005
+    - 0.9200000166893005
+  - - -0.8700000047683716
+    - 0.8700000047683716
+  - - -0.699999988079071
+    - 0.699999988079071
+  - - -0.3499999940395355
+    - 0.3499999940395355
+  soft_limit_factor: 1.0
+  default_dof_pos:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  model_path: /home/mikab4/models/good_modles/experiment_8_squat_good/best_train.pth.tar
+  torque_limits:
+  - 30.0
+  - 30.0
+  - 50.0
+  - 50.0
+  - 50.0
+  - 10.0
+  - 30.0
+  - 30.0
+  - 50.0
+  - 50.0
+  - 50.0
+  - 10.0
+  pd_gains:
+    left_hip_yaw:
+      kp: 79.99999237060547
+      kd: 3.0
+    left_hip_roll:
+      kp: 79.99999237060547
+      kd: 3.0
+    left_hip_pitch:
+      kp: 79.99999237060547
+      kd: 3.0
+    left_knee:
+      kp: 79.99999237060547
+      kd: 3.0
+    left_ankle_pitch:
+      kp: 79.99999237060547
+      kd: 3.0
+    left_ankle_roll:
+      kp: 49.999996185302734
+      kd: 3.0
+    right_hip_yaw:
+      kp: 79.99999237060547
+      kd: 3.0
+    right_hip_roll:
+      kp: 79.99999237060547
+      kd: 3.0
+    right_hip_pitch:
+      kp: 79.99999237060547
+      kd: 3.0
+    right_knee:
+      kp: 79.99999237060547
+      kd: 3.0
+    right_ankle_pitch:
+      kp: 79.99999237060547
+      kd: 3.0
+    right_ankle_roll:
+      kp: 49.999996185302734
+      kd: 3.0
+  observations:
+    pelvis_quat:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_rigid_body_state
+      params:
+        names:
+        - base_link
+        state: rot
+        qri: false
+      obs_scale: 8.0
+      noise_scale_mul:
+      - 0.9
+      - 1.1
+      noise_scale_add:
+      - -0.01
+      - 0.01
+      update_freq: 200
+      delay: 0.005
+      max_delay: 0.02
+      size: 4
+    pelvis_ang_v:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_rigid_body_state
+      params:
+        names:
+        - base_link
+        state: ang_vel
+        qri: true
+      obs_scale: 0.5
+      noise_scale_mul:
+      - 0.9
+      - 1.1
+      noise_scale_add:
+      - -0.01
+      - 0.01
+      update_freq: 200
+      delay: 0.005
+      max_delay: 0.02
+      size: 3
+    pelvis_lin_acc:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_lin_acc
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 0.9
+      - 1.1
+      noise_scale_add:
+      - -0.01
+      - 0.01
+      update_freq: 200
+      delay: 0.005
+      max_delay: 0.02
+      size: 3
+    visible_delta_dof:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_visible_delta_dof
+      obs_scale: 4.0
+      noise_scale_mul:
+      - 0.9
+      - 1.1
+      noise_scale_add:
+      - -0.01
+      - 0.01
+      update_freq: 250
+      delay: 0.005
+      max_delay: 0.02
+      size: 12
+    visible_dof_vel:
+      default_value:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      function: get_visible_dof_vel
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 0.9
+      - 1.1
+      noise_scale_add:
+      - -0.01
+      - 0.01
+      update_freq: 250
+      delay: 0.005
+      max_delay: 0.02
+      size: 12
+    temporal_encoding:
+      default_value:
+      - 0.0
+      - 0.0
+      function: get_batch_temporal_encoding
+      obs_scale: 1.0
+      noise_scale_mul:
+      - 1.0
+      - 1.0
+      noise_scale_add:
+      - -0.0
+      - 0.0
+      update_freq: 200
+      delay: 0.005
+      max_delay: 0.02
+      size: 2

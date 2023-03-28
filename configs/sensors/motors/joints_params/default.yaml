@@ -1,0 +1,241 @@
+candle_params:
+  baudrate: 1M
+  bus_type: SPI
+left_ankle_pitch:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 8.2e-08
+    transition_factor: 0.01
+    vel_variance: 4.05e-05
+  watchdog:
+    kd: 5
+    kp: 1000.0
+    max_position: 0.7
+    min_position: -0.7
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+left_ankle_roll:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 30.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 4.166e-09
+    transition_factor: 0.01
+    vel_variance: 0.00128
+  watchdog:
+    kd: 5.0
+    kp: 1000
+    max_position: 0.35
+    min_position: -0.35
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+left_hip_pitch:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 8.2e-08
+    transition_factor: 0.01
+    vel_variance: 4.05e-05
+  watchdog:
+    kd: 5
+    kp: 1000
+    max_position: 1.05
+    min_position: -1.05
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+left_hip_roll:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 500
+  kalman_filter:
+    pos_variance: 1.5e-07
+    transition_factor: 0.01
+    vel_variance: 0.00128
+  watchdog:
+    kd: 5
+    kp: 1000.0
+    max_position: 0.52
+    min_position: -0.52
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+left_hip_yaw:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 1.5e-07
+    transition_factor: 0.01
+    vel_variance: 0.00128
+  watchdog:
+    kd: 5
+    kp: 1000
+    max_position: 0.79
+    min_position: -0.79
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+left_knee:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 8.2e-08
+    transition_factor: 0.01
+    vel_variance: 4.05e-05
+  watchdog:
+    kd: 5
+    kp: 1000.0
+    max_position: 0.96
+    min_position: -0.96
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+right_ankle_pitch:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 8.2e-08
+    transition_factor: 0.01
+    vel_variance: 4.05e-05
+  watchdog:
+    kd: 5
+    kp: 1000.0
+    max_position: 0.7
+    min_position: -0.7
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+right_ankle_roll:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 30.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 4.166e-09
+    transition_factor: 0.01
+    vel_variance: 0.00128
+  watchdog:
+    kd: 5.0
+    kp: 1000
+    max_position: 0.35
+    min_position: -0.35
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+right_hip_pitch:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 8.2e-08
+    transition_factor: 0.01
+    vel_variance: 4.05e-05
+  watchdog:
+    kd: 5.0
+    kp: 1000.0
+    max_position: 1.05
+    min_position: -1.05
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+right_hip_roll:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 500
+  kalman_filter:
+    pos_variance: 1.5e-07
+    transition_factor: 0.01
+    vel_variance: 0.00128
+  watchdog:
+    kd: 5
+    kp: 1000.0
+    max_position: 0.52
+    min_position: -0.52
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+right_hip_yaw:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 1.5e-07
+    transition_factor: 0.01
+    vel_variance: 0.00128
+  watchdog:
+    kd: 5
+    kp: 1000
+    max_position: 0.79
+    min_position: -0.79
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+right_knee:
+  init_params:
+    default_kd: 5.0
+    default_kp: 50.0
+    default_max_torque: 50.0
+    init_kd: 5.0
+    init_kp: 100
+  kalman_filter:
+    pos_variance: 8.2e-08
+    transition_factor: 0.01
+    vel_variance: 4.05e-05
+  watchdog:
+    kd: 5
+    kp: 1000
+    max_position: 0.96
+    min_position: -0.96
+    pos_percent_wanted: 0.95
+    soft_limit: 1.0
+    torque_offset: 0
+savgol_coeffs:
+- 34.18803419
+- 25.64102564
+- 17.09401709
+- 8.54700855
+- 0.0
+- -8.54700855
+- -17.09401709
+- -25.64102564
+- -34.18803419

@@ -1,0 +1,8 @@
+defaults:
+  - motors: ["upper_body_sim_no_ros"]
+  - imus: ["sim_imu"]
+#  - distances: ["default"]
+#  - teleops: ["default"]
+#  - contact: ["default"]
+
+#New 1.2.23 : modified version of sim_sensors_no_ros.yaml

@@ -1,0 +1,7 @@
+defaults:
+  - states: ["state_no_ros_upper"]
+  - sensors: ["sensors_no_ros_upper"]
+  - networks: ["standing_niz_128"]
+
+frequency: 60                         #value
+motors_pub: "motors/actions"

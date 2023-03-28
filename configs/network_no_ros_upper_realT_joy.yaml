@@ -1,0 +1,7 @@
+defaults:
+  - states: ["state_no_ros_upper_realT_joy"]
+  - sensors: ["sensors_no_ros_upper_realT_joy"]
+  - networks: ["realT_Ref_joy"]
+
+frequency: 10                         #value
+motors_pub: "motors/actions"

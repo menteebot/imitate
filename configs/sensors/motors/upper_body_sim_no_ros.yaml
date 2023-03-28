@@ -1,0 +1,4 @@
+defaults:
+  - upper_body: "upper_sim_no_ros"
+
+#New 1.2.23 : modified version of lower_body_sim_no_ros.yaml

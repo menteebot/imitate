@@ -1,0 +1,65 @@
+high_pid_kp:
+  left_hip_yaw: 1.0
+  left_hip_roll: 2.1
+  left_hip_pitch: 2.5
+  left_knee: 1.5
+  left_ankle_pitch: 1.2
+  left_ankle_roll: 1.0
+  right_hip_yaw: 1.0
+  right_hip_roll: 2.0
+  right_hip_pitch: 2.5
+  right_knee: 1.5
+  right_ankle_pitch: 1.2
+  right_ankle_roll: 1.0
+high_pid_kd:
+  left_hip_yaw: 0.0
+  left_hip_roll: 0.0
+  left_hip_pitch: 0.0
+  left_knee: 0.0
+  left_ankle_pitch: 0.0
+  left_ankle_roll: 0.0
+  right_hip_yaw: 0.0
+  right_hip_roll: 0.0
+  right_hip_pitch: 0.0
+  right_knee: 0.0
+  right_ankle_pitch: 0.0
+  right_ankle_roll: 0.0
+high_pid_ki:
+  left_hip_yaw: 0.0
+  left_hip_roll: 0.0
+  left_hip_pitch: 0.0
+  left_knee: 0.0
+  left_ankle_pitch: 0.0
+  left_ankle_roll: 0.0
+  right_hip_yaw: 0.0
+  right_hip_roll: 0.0
+  right_hip_pitch: 0.0
+  right_knee: 0.0
+  right_ankle_pitch: 0.0
+  right_ankle_roll: 0.0
+high_pid_max_agg_error:
+  left_hip_yaw: 1.91
+  left_hip_roll: 2.0
+  left_hip_pitch: 1.08
+  left_knee: 1.88
+  left_ankle_pitch: 1.52
+  left_ankle_roll: 1.57
+  right_hip_yaw: 1.91
+  right_hip_roll: 2.0
+  right_hip_pitch: 1.08
+  right_knee: 1.88
+  right_ankle_pitch: 1.52
+  right_ankle_roll: 1.57
+high_pid_actions_limit_scale:
+  left_hip_yaw: 1.3
+  left_hip_roll: 3.1
+  left_hip_pitch: 3.7
+  left_knee: 1.7
+  left_ankle_pitch: 4.3
+  left_ankle_roll: 5.0
+  right_hip_yaw: 1.3
+  right_hip_roll: 3.1
+  right_hip_pitch: 3.7
+  right_knee: 1.7
+  right_ankle_pitch: 4.3
+  right_ankle_roll: 5.0

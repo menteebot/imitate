@@ -1,0 +1,140 @@
+# Low position v2
+#left_hip_yaw: 0.0
+#left_hip_roll: -0.148
+#left_hip_pitch: -0.33
+#left_knee: 0.27
+#left_ankle_pitch: 0.41
+#left_ankle_roll: 0.
+#right_hip_yaw: 0.0
+#right_hip_roll: 0.148
+#right_hip_pitch: 0.33
+#right_knee: -0.27
+#right_ankle_pitch: -0.41
+#right_ankle_roll: -0.0
+
+
+# High position v2
+#'left_hip_yaw': 0.
+#'left_hip_roll': -0.1
+#'left_hip_pitch': 0.
+#'left_knee': 1.0
+#'left_ankle_pitch': 0.05
+#'left_ankle_roll': 0.
+#'right_hip_yaw': 0.
+#'right_hip_roll': 0.1
+#'right_hip_pitch': 0.
+#'right_knee': -1.0
+#'right_ankle_pitch': -0.05
+#'right_ankle_roll': 0.
+
+# New init pos from Nitsan
+left_ankle_pitch: 0.48
+left_ankle_roll: 0.0
+left_hip_pitch: -0.33
+left_hip_roll: -0.0
+left_hip_yaw: 0.0
+left_knee: 0.05
+right_ankle_pitch: -0.48
+right_ankle_roll: -0.0
+right_hip_pitch: 0.33
+right_hip_roll: 0.0
+right_hip_yaw: 0.0
+right_knee: -0.05
+
+# New init pos from Ori
+# left_ankle_pitch: 0.115
+# left_ankle_roll: 0.0
+# left_hip_pitch: -0.574
+# left_hip_roll: -0.0
+# left_hip_yaw: 0.0
+# left_knee: 0.194
+# right_ankle_pitch: -0.115
+# right_ankle_roll: -0.0
+# right_hip_pitch: 0.574
+# right_hip_roll: 0.0
+# right_hip_yaw: 0.0
+# right_knee: -0.194
+
+# zero init from Nitsan
+# left_ankle_pitch: 0.0
+# left_ankle_roll: 0.0
+# left_hip_pitch: -0.33
+# left_hip_roll: -0.0
+# left_hip_yaw: 0.0
+# left_knee: 0.05
+# right_ankle_pitch: -0.48
+# right_ankle_roll: -0.0
+# right_hip_pitch: 0.33
+# right_hip_roll: 0.0
+# right_hip_yaw: 0.0
+# right_knee: -0.05
+
+# zero init from Nitsan
+left_ankle_pitch: 0.0
+left_ankle_roll: 0.0
+left_hip_pitch: -0.0
+left_hip_roll: -0.0
+left_hip_yaw: 0.0
+left_knee: 0.0 #0.87266
+right_ankle_pitch: -0.0
+right_ankle_roll: -0.0
+right_hip_pitch: 0.0
+right_hip_roll: 0.0
+right_hip_yaw: 0.0
+right_knee: 0.0 #-0.87266
+
+## zero init from Nitsan RKnee exp
+# left_ankle_pitch: 0.0
+# left_ankle_roll: 0.0
+# left_hip_pitch: -0.0
+# left_hip_roll: -0.0
+# left_hip_yaw: 0.0
+# left_knee: 0.87266
+# right_ankle_pitch: -0.0
+# right_ankle_roll: -0.0
+# right_hip_pitch: 0.8
+# right_hip_roll: 0.0
+# right_hip_yaw: 0.0
+# right_knee: -0.0
+
+## zero init from Nitsan LKnee exp
+# left_ankle_pitch: 0.0
+# left_ankle_roll: 0.0
+# left_hip_pitch: -0.8
+# left_hip_roll: -0.0
+# left_hip_yaw: 0.0
+# left_knee: 0.0
+# right_ankle_pitch: -0.0
+# right_ankle_roll: -0.0
+# right_hip_pitch: 0.0
+# right_hip_roll: 0.0
+# right_hip_yaw: 0.0
+# right_knee: -0.87266
+
+## zero init from Nitsan RHipRoll exp
+# left_ankle_pitch: 0.0
+# left_ankle_roll: 0.0
+# left_hip_pitch: -0.8
+# left_hip_roll: 0.2
+# left_hip_yaw: 0.0
+# left_knee: 0.87266
+# right_ankle_pitch: -0.0
+# right_ankle_roll: -0.0
+# right_hip_pitch: 0.0
+# right_hip_roll: -0.2
+# right_hip_yaw: 0.0
+# right_knee: -0.87266
+
+# zero init from Nitsan LHipRoll exp
+# left_ankle_pitch: 0.0
+# left_ankle_roll: 0.0
+# left_hip_pitch: 0.0
+# left_hip_roll: 0.2
+# left_hip_yaw: 0.0
+# left_knee: 0.87266
+# right_ankle_pitch: -0.0
+# right_ankle_roll: -0.0
+# right_hip_pitch: 0.8
+# right_hip_roll: -0.2
+# right_hip_yaw: 0.0
+# right_knee: -0.87266

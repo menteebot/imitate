@@ -1,0 +1,7 @@
+defaults:
+  - states: ["state_ros"]
+  - sensors: ["sensors_ros"]
+  - networks: ["set_actions"]
+
+frequency: 30
+motors_pub: "motors/actions"
