@@ -3,8 +3,8 @@ right_shoulder_pitch:
     default_kd: 50
     default_kp: 100
     default_max_torque: 90.0
-    init_kd: 10
-    init_kp: 10
+    init_kd: 50
+    init_kp: 50
   kalman_filter:
     pos_variance: 8.2e-08
     transition_factor: 0.01
@@ -23,8 +23,8 @@ right_shoulder_roll:
     default_kd: 50 # 115 was the limit for motor shut dawn
     default_kp: 100
     default_max_torque: 90.0
-    init_kd: 10
-    init_kp: 10
+    init_kd: 50
+    init_kp: 50
   kalman_filter:
     pos_variance: 8.2e-08
     transition_factor: 0.01
@@ -43,8 +43,8 @@ right_shoulder_yaw:
     default_kd: 40
     default_kp: 70
     default_max_torque: 50.0
-    init_kd: 10
-    init_kp: 10
+    init_kd: 50
+    init_kp: 50
   kalman_filter:
     pos_variance: 8.2e-08
     transition_factor: 0.01
@@ -64,8 +64,8 @@ right_elbow:
     default_kd: 40
     default_kp: 70
     default_max_torque: 30.0
-    init_kd: 10
-    init_kp: 10
+    init_kd: 50
+    init_kp: 50
   kalman_filter:
     pos_variance: 8.2e-08
     transition_factor: 0.01
